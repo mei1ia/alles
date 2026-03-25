@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1{font-size:100px;}
+
+.geheim{display: grid;
+		place-content: center;
+		height: 100vh;
+		background-image: url("pixel-art-stars.gif");
+		background-repeat: no-repeat;
+		background-size:contain;
+		background-attachment: fixed;
+		background-position: center;}
+</style>
+
+
+<head>
+<title>Geheime sachen</title>
+</head>
+<body>
+
+
+<div class="geheim"> <h1>Passwort?</h1>
+	<input type="password "id="test1"></input>
+
+	<button onclick="Compare()">Ist das Richtig so?</button>
+
+	<script> function Compare() { if (document.getElementById("test1").value == "Liebe2026") { open("wow.html", "\\\_self") }} </script>
+</div>
+<a href="alles/index.html">hier gehts zurück zur hauptseite </a>
+</body>
+</html>
